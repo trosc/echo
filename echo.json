@@ -1,0 +1,16 @@
+{
+    "format"      : "1.0",
+    "visibility"  : "public",
+    "caption"     : "echo",
+    "description" : "prints the arguments",
+    "type"        : "command",
+    "scope"       : "browser,cloud",
+    "display"     : "hidden",
+    "minify"      : "true",
+    "sources"     : {
+        "scripts" : [
+            "libs/trosc.sys/1.0/sys.js",
+            "commands/echo.js"
+        ]
+    }
+}
